@@ -2,8 +2,21 @@ body{
 	font-family: "Droid Serif";
 }
 
+div.container{
+	max-width: 740px;
+	margin: auto;
+}
+
 div.post{
 	text-align: left;
+}
+
+div.note{
+	font-style: italic;
+	max-width: 80%;
+	margin: auto;
+	display: block;
+	text-align: center;
 }
 
 img{
@@ -37,6 +50,8 @@ div.addendum{
 div.addendum-header{
 	display: block;
 	width: 100%;
+	max-width: 580px;
+	margin: auto;
 	position: relative;
 
 	text-align: left;
