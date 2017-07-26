@@ -1,0 +1,111 @@
+body{
+	font-family: "Droid Serif";
+}
+
+div.post{
+	text-align: left;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+
+img.post-endcap{
+	margin-top: 32px;
+	margin-bottom: 16px;
+}
+
+h2.post-header, h3.date{
+	text-align: center;
+}
+
+h3.date{
+	font-family: "Raleway";
+	font-weight: 200;
+}
+
+p{
+	text-indent: 16px;
+}
+
+div.addendum{
+	font-family: "Raleway";
+}
+
+div.addendum-header{
+	display: block;
+	width: 100%;
+	position: relative;
+
+	text-align: left;
+}
+
+img.npc{
+	width: 40%;
+	height: auto;
+	margin: 0;
+	z-index: 2;
+	position: relative;
+}
+
+img.npc.minimized{
+	width: 18%;
+	z-index: 2;
+}
+
+img.speechBubble{
+	width: 70%;
+	position: absolute;
+	right: 0;
+	top: 22%;
+}
+
+img.speechBubble.hidden{
+	display: none;
+}
+
+div.addendum-content{
+	box-sizing: border-box;
+	display: block;
+	overflow: hidden;
+	background-color: #f3eddf;
+	border: 1px solid #161616;
+	border-radius: 60px;
+
+	margin-top: -40px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+
+	position: relative;
+}
+div.addendum-content.hidden{
+	height: 0px;
+	border: none;
+
+	margin: 0;
+	padding: 0;
+}
+
+h3.addendum-title{
+	font-size: 24px;
+	display: block;
+	position: absolute;
+
+	left: 24%;
+	top: -16px;
+}
+
+img.addendum-endcap{
+	width: 100%;
+	height: auto;
+}
+
+div.signature{
+	font-size: 18px;
+	font-family: "Lobster";
+	text-indent: 16px;
+}

@@ -3,11 +3,54 @@
 <head>
   <meta charset="utf-8">
   <title>DnD Demo Deployment</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,400|Droid+Serif|Lobster" rel="stylesheet">
+  <link href = "css/styles.css" rel = "stylesheet" />
 </head>
 <body style = "text-align: center">
-	<img src = "img/splashPage.jpg" style = "width: 100%; height: auto">
- 	<p><a href="DumbbellsAndDragons.apk" style="font-size: 24px">Current Build ( Android )</a></p>
- 	<p style="font-size: 24px">iOS coming soon!</p>
+	<img src = "img/splashPage.jpg" style = "width: 100%; height: auto; margin-bottom: 18px;">
+ 	<div style="margin-bottom: 18px;"><a href="DumbbellsAndDragons.apk" style="font-size: 24px;">Current Build ( Android )</a></div>
+ 	<div style="font-size: 24px">iOS coming soon!</div>
+
+ <div class="post">
+ 	<img class = "post-endcap" src="img/post_startcap.png">
+ 	<h2 class="post-header">Update 1.1: iOS Builds are Live!</h2>
+ 	<h3 class="date">July 26, 2017</h3>
+ 	<p>Hello alpha testers! Thank you so much for being with us!</p>
+ 	<p>We’ve just released a new build of the app, on iOS and Android, and we’re ready for another round of testing.</p>
+	<p>If you participated in the last round, the first change you might notice is that you now have a choice of workouts. These are all variants of the Ranger’s “Short Run” training archetype. In the future, you’ll have access to Long Runs, Medium Runs, and Cross-Training days, as well.</p>
+	<img src="img/workout_choices.png">
+	<p>Whichever workout you choose, you should see that the prompts are randomized, as well. In other words, each time you do workout number 2, you’ll see a different collection of exercises. One time you may have lunges; another time you’ll have high knees or air squats.</p>
+	<p>We haven’t implemented Education yet, so if you ever see an exercise you don’t know how to do, just try doing something similar, instead. When in doubt, squats and lunges are a good fallback for non-core workouts, and planks or burpees are good substitutes for a core exercise.</p>
+	<p>We also don’t have side-switching prompts yet! So, if you’re doing a workout like bird-dogs or single leg hops, which only use one side of the body, you should try and switch sides halfway through the set. We’ll put a buzzer in the next build!</p>
+	<p>While I'm here, I'd like to make a note about pacing, as well. You should expect to be constantly moving for a solid 30 or 40 minutes during this workout, so pace yourself accordingly. If you have to go slowly to keep going, do it. On the other hand, if you feel that you’re not burning enough energy, feel free to speed up! If it helps you to match pace with the avatar, you can do that—but don’t take her too seriously. We’re still working on our animations.</p>
+
+	<div class="addendum">
+		<div class = "addendum-header">
+			<img class = "npc" src="img/aedrian.png">
+			<img class = "speechBubble" src="img/speechBubble.png">
+		</div>
+		<div class = "addendum-content hidden">
+			<h3 class="addendum-title">GoFundUs!</h3>
+			<p>Right now, actually, all of our animations are placeholders. To make the high-quality animations we'd like to include in the final app, we need a couple of tools called "Inverse Kinematics" and "Mesh Deformation." IK will let us stick our actor's hands and feet in place, so we can make them stay still while the rest of her moves around. Mesh Deformation, meanwhile, will let us do things like make her clothes move, or even (if we can get it working right) let her turn sideways, move at an angle, or look around in three dimensions.</p>
+			<p>The program we're using for our animations, <a href="https://www.esotericsoftware.com" target="_blank">Spine,</a> includes IK and Mesh Deformation in its Professional version. That costs $300 a seat, and we have two animators, so we're looking at a $600 investment (plus taxes) before we can start animations for the real thing. We've pegged our goal at $660.</p>
+			<p>If you'd like to help us reach that goal, we've set up a <a href="https://www.gofundme.com/spine-pro-for-dd-development" target="_blank">GoFundMe</a> you can contribute to. We haven't made any reward tiers, but this is pre-Kickstarter so really, all options are open. Want an NPC (Non-Player Character) named after you? We're on it! Want a sword with your name on it? You're on.</p>
+			<p>If you can't help out, that's fine too! You're doing a lot for us already, just by testing the app.</p>
+		</div>
+	</div>
+
+	<p>Whatever you do, make sure to listen to your body and trust your training. We recruited you, in part, because you’re experienced athletes we can trust to work with an imperfect product.</p>
+	<p>One final note about testing. While you’re working out, please think about which features you might like from the app: what information do you want, that you don’t have? What could we help you do? What questions do you have? If you run into a bug, or if the program crashes, then what were you doing at the time? What was happening when the failure occurred?</p>
+	<p>We’d also love to hear anything about your feelings and your thought process while you’re using the app. Really, there’s nothing we <em>don’t</em> want to hear from you.</p>
+	<p>If you have any questions or comments, you can get in touch with Karsten or me through phone ( 804-399-6840 or 860-796-1447, respectively) or by email ( <a href="mailto:wildeuskp@gmail.com?Subject=Dumbbells%20And%20Dragons">wildeuskp@gmail.com</a> and <a href="mailto:phillip.bascom@gmail.com?Subject=Dumbbells%20And%20Dragons">phillip.bascom@gmail.com</a>). We’d love to hear from you.</p>
+	<p>And of course, whatever you do: have fun!</p>
+	<div class = "signature">Phil</div>
+	<img class = "post-endcap" src="img/post_endcap.png">
+</div>
+
+
+ <script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/jquery-ui.min.js"></script>
+ <script src="js/actions.js"></script>
 </body>
 </html>
 
