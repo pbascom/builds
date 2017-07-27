@@ -25,6 +25,12 @@ img{
 	margin: auto;
 }
 
+div.caption{
+	text-align: center;
+	font-style: italic;
+	margin-top: 8px;
+}
+
 img.post-endcap{
 	margin-top: 32px;
 	margin-bottom: 16px;
